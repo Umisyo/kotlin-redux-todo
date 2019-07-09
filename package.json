@@ -1,0 +1,33 @@
+{
+  "name": "kotlin-redux-tututor",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@jetbrains/kotlin-css": "^1.0.0-pre.67",
+    "@jetbrains/kotlin-css-js": "^1.0.0-pre.67",
+    "@jetbrains/kotlin-react-redux": "^5.0.7-pre.67",
+    "@jetbrains/kotlin-react-router-dom": "^4.3.1-pre.67",
+    "@jetbrains/kotlin-redux": "^4.0.0-pre.67",
+    "@jetbrains/kotlin-styled": "^1.0.0-pre.67",
+    "@jetbrains/kotlin-webpack-plugin": "^2.0.3",
+    "inline-style-prefixer": "^5.1.0",
+    "kotlinx-serialization-runtime-js": "^0.5.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-redux": "^7.1.0",
+    "react-router-dom": "^5.0.1",
+    "redux": "^4.0.1",
+    "styled-components": "^4.3.2"
+  },
+  "devDependencies": {
+    "react-scripts-kotlin": "^3.0.3"
+  },
+  "scripts": {
+    "start": "react-scripts-kotlin start",
+    "build": "react-scripts-kotlin build",
+    "eject": "react-scripts-kotlin eject",
+    "gen-idea-libs": "react-scripts-kotlin gen-idea-libs",
+    "get-types": "react-scripts-kotlin get-types --dest=src/types",
+    "postinstall": "npm run gen-idea-libs"
+  }
+}
